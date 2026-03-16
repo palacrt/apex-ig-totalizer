@@ -39,6 +39,7 @@ Crea una nueva Acción Dinámica con los siguientes parámetros:
 2. En tu aplicación de Oracle APEX, navega a **Shared Components** > **Plugins**.
 3. Haz clic en **Import** y selecciona el archivo descargado.
 4. Sigue los pasos del asistente para completar la instalación.
+5. Opcionalmente se puede instalar la Aplicación app_demo.sql, como prerequisito se requieren las tablas de ejemplo de oracle EMP y DEPT.
 
 
 ## Licencia
