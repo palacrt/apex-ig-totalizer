@@ -4,7 +4,6 @@ whenever sqlerror exit sql.sqlcode rollback
 --------------------------------------------------------------------------------
 --
 -- Oracle APEX export file
--- 2026 - Juan David Palacios
 --
 -- You should run this script using a SQL client connected to the database as
 -- the owner (parsing schema) of the application or as a database user with the
@@ -34,7 +33,7 @@ prompt APPLICATION 261632 - Demo APEX IG Totalizer
 -- Application Export:
 --   Application:     261632
 --   Name:            Demo APEX IG Totalizer
---   Date and Time:   00:00 Lunes Marzo 16, 2026
+--   Date and Time:   00:36 Lunes Marzo 16, 2026
 --   Exported By:     JUANDPALACIOS@GMAIL.COM
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -95,7 +94,7 @@ wwv_imp_workspace.create_flow(
 ,p_authentication_id=>wwv_flow_imp.id(148649911821101838024)
 ,p_application_tab_set=>0
 ,p_logo_type=>'T'
-,p_logo_text=>'Demo APEX IG Totalizar'
+,p_logo_text=>'Demo APEX IG Totalizer'
 ,p_proxy_server=>nvl(wwv_flow_application_install.get_proxy,'')
 ,p_no_proxy_domains=>nvl(wwv_flow_application_install.get_no_proxy_domains,'')
 ,p_flow_version=>'Release 1.0'
@@ -111,7 +110,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'Demo APEX IG Totalizer'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
-,p_version_scn=>15743270155771
+,p_version_scn=>15743275518111
 ,p_print_server_type=>'INSTANCE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
@@ -133,7 +132,7 @@ wwv_flow_imp_shared.create_user_interface(
 ,p_navigation_list_id=>wwv_flow_imp.id(148649912614447838025)
 ,p_navigation_list_position=>'SIDE'
 ,p_navigation_list_template_id=>2467739217141810545
-,p_nav_list_template_options=>'#DEFAULT#:t-TreeNav--styleA:js-navCollapsed--hidden'
+,p_nav_list_template_options=>'#DEFAULT#:js-defaultCollapsed:js-navCollapsed--hidden:t-TreeNav--styleA'
 ,p_nav_bar_type=>'LIST'
 ,p_nav_bar_list_id=>wwv_flow_imp.id(148649913815631838028)
 ,p_nav_bar_list_template_id=>2847543055748234966
@@ -1168,7 +1167,7 @@ wwv_flow_imp_page.create_page(
  p_id=>1
 ,p_name=>'Inicio'
 ,p_alias=>'HOME'
-,p_step_title=>'Demo APEX IG Totalizar'
+,p_step_title=>'Demo APEX IG Totalizer'
 ,p_autocomplete_on_off=>'OFF'
 ,p_page_template_options=>'#DEFAULT#'
 ,p_protection_level=>'C'
@@ -1176,12 +1175,12 @@ wwv_flow_imp_page.create_page(
 );
 wwv_flow_imp_page.create_page_plug(
  p_id=>wwv_flow_imp.id(148649925367607838044)
-,p_plug_name=>'Demo APEX IG Totalizar'
+,p_plug_name=>'Demo APEX IG Totalizer'
 ,p_region_template_options=>'#DEFAULT#'
-,p_escape_on_http_output=>'Y'
 ,p_plug_template=>2674017834225413037
 ,p_plug_display_sequence=>10
 ,p_plug_display_point=>'REGION_POSITION_01'
+,p_location=>null
 ,p_plug_query_num_rows=>15
 ,p_region_image=>'#APP_FILES#icons/app-icon-512.png'
 ,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
