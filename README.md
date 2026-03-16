@@ -42,6 +42,8 @@ Crea una nueva Acción Dinámica con los siguientes parámetros:
 5. Opcionalmente se puede instalar la Aplicación app_demo.sql, como prerequisito se requieren las tablas de ejemplo de oracle EMP y DEPT.
 6. Pueden ver la app demo funcionando aquí: [https://oracleapex.com/ords/r/palacrt/demo-apex-ig-totalizer/home](https://oracleapex.com/ords/r/palacrt/demo-apex-ig-totalizer/home)
 
+## Limitaciones
+1. No trabaja sobre elementos de solo lectura, como alternativa se peude agregar la clase CSS apex_disabled al elemento. Dentro de la seccion **Avanzada**
 
 ## Licencia
 Distribuido bajo **GNU General Public License v2.0**.
