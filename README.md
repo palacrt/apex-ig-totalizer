@@ -17,7 +17,7 @@ Imagina que tienes una pantalla de **Gestión de Ventas** con un Interactive Gri
 ### 1. Preparación de la Página
 * **Interactive Grid:** Asígnale un ID Estático (Static ID), por ejemplo: `IG_VENTAS`.
 * **Columna del IG:** Asegúrate de conocer el nombre del campo (Case Sensitive), por ejemplo: `PRECIO_TOTAL`.
-* **Page Item:** Crea un elemento de tipo *Number Field* o *Display Only* llamado `P10_TOTAL_GENERAL`.
+* **Page Item:** Crea un elemento de tipo *Number Field* o *Text Field* llamado `P10_TOTAL_GENERAL`.
 
 ### 2. Configuración de la Acción Dinámica
 Crea una nueva Acción Dinámica con los siguientes parámetros:
