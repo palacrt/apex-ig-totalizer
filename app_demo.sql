@@ -4,6 +4,7 @@ whenever sqlerror exit sql.sqlcode rollback
 --------------------------------------------------------------------------------
 --
 -- Oracle APEX export file
+-- 2026 - Juan David Palacios
 --
 -- You should run this script using a SQL client connected to the database as
 -- the owner (parsing schema) of the application or as a database user with the
